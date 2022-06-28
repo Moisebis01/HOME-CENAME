@@ -155,6 +155,10 @@ hr{
 
 }
 
+#regi :hover{
+    text-decoration: underline;
+}
+
 .Log {
     text-align: center;
     padding-top: -50px;
