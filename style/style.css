@@ -1,0 +1,239 @@
+body{
+    background-color: rgb(46, 45, 45);
+    background-image: url("wolf2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.main-div{
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 2%;
+
+}
+
+.logo{
+    background-color: aliceblue;
+    padding-bottom: 30%;
+    border-radius: 10px;
+    border: solid 1px red;
+    resize: none;
+    box-shadow: 0 10px 8px 0 rgba(255, 6, 6, 0.61), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.4s;
+}
+
+.logo:hover{
+    box-shadow: 4px 10px 20px 8px rgba(255, 6, 6, 0.61), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#logo-page{ 
+    padding-left: 10px;
+    
+}
+
+nav{ 
+    
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(253, 6, 6)) ;
+    border-radius: 5px;
+    
+}
+
+img{
+    height: 50px;
+    width: 90px;
+    padding-top: 5px;
+    
+}
+
+#img{
+    height: 45px;
+    width: 90px;
+    padding-top: -5px;
+    
+}
+
+h1{
+    color: brown;
+    display: inline-block;
+    padding-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.my-form{
+    padding-left: 20px;
+    padding-top: 25px;
+    bottom: 50px;
+    
+}
+
+input{
+    color: brown;
+    size: 50px;
+}
+
+#ttt{
+
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: groove;
+    background-color: aliceblue;
+    width: 50%;
+    transition-duration: 0.5s;
+    padding-top: 10px;
+
+}
+
+@keyframes myttt {
+
+    from {width: 50%;}
+    to {width: 90%;}
+
+}
+
+#ttt:focus{
+    outline: none;
+    width: 90%; 
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(68, 67, 67);
+    padding-bottom: 
+}
+
+hr{
+    color: red;
+    margin: 20px;
+    
+}
+
+#para{
+    text-align: center;
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid 1.5px white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    size: 10px;
+    cursor: pointer; 
+    border-radius: 5px; 
+    background-color: rgb(252, 186, 186); 
+    color: rgb(255, 253, 253);
+    transition-duration: 0.4s;
+}
+
+.p{
+    padding-top: 25px;
+}
+
+#para:hover{
+    background-color: rgb(255, 49, 49);
+    color: white;
+}
+
+
+
+#para:active::after{
+    opacity: 1;
+    transition: 0s
+}
+
+#reg{
+    display: inline;
+    padding-left: 10px;
+    padding-top:10px;
+    
+}
+
+#regi{
+    display: inline-block;
+    text-decoration: none;
+    color: brown;
+
+}
+
+.Log {
+    text-align: center;
+    padding-top: -50px;
+}
+
+#log {
+    size: 50px;
+    color: brown;
+}
+
+ul{
+    display: inline;
+    padding-top: 10px;
+}
+
+li{
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 28px;
+    color: #f1f1f1;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+
+a{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: brown;
+    transition-duration: 0.5s;
+    cursor: pointer;
+
+}
+
+.active{
+    background-color: brown;
+    cursor: not-allowed;
+}
+
+i {
+    color: white;
+}
+
+input :required{
+    color: blue;
+}
+
+h4{
+    visibility: hidden;
+}
+
+#ttt2:focus, h4{
+    outline: none;
+    width: 90%;
+}
+
+#ttt2{
+
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: groove;
+    background-color: aliceblue;
+    width: 50%;
+    transition-duration: 0.5s;
+    
+
+}
+
+@keyframes myttt {
+
+    from {width: 50%;}
+    to {width: 90%;}
+
+}
+

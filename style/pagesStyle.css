@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(46, 45, 45);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar{
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0%; 
+    width: 100%;
+}
+
+.navbar i{
+    float: right;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+
+#wolf{
+    height: 60px;
+    width: 110px;
+}
+
+.navbar .logo {
+    display: flex;
+}
+
+.title{
+    padding-top: 10px;
+    padding-left: 50px;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contLogo{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+i{
+    color: brown;
+    
+}
+
+a :hover{
+    cursor: pointer;
+    animation: 1s;
+    background-color: rgb(247, 245, 245);
+
+}
+
+#active{
+    border-bottom: solid brown 8px;
+    cursor: not-allowed;
+    background-color: rgb(247, 245, 245);
+}
